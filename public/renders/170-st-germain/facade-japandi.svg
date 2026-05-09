@@ -1,0 +1,22 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#c7c6bd"/>
+  <rect y="570" width="1200" height="190" fill="#59604f"/>
+  <g transform="translate(335 95)">
+    <rect x="90" y="20" width="420" height="560" rx="8" fill="#b4aa95"/>
+    <rect x="110" y="48" width="380" height="505" fill="#d4ccb9"/>
+    <g fill="#1e2422">
+      <rect x="145" y="78" width="90" height="88"/>
+      <rect x="286" y="78" width="90" height="88"/>
+      <rect x="145" y="218" width="90" height="88"/>
+      <rect x="286" y="218" width="90" height="88"/>
+      <rect x="160" y="420" width="205" height="132"/>
+    </g>
+    <g fill="#7b6a50">
+      <rect x="130" y="372" width="265" height="18"/>
+      <rect x="130" y="397" width="265" height="18"/>
+      <rect x="130" y="326" width="265" height="18"/>
+    </g>
+  </g>
+  <text x="70" y="92" fill="#1c1c1b" font-family="Arial" font-size="42" font-weight="700">Japandi Variant</text>
+  <text x="72" y="136" fill="#3b3b37" font-family="Arial" font-size="22">cedar slats, pale plaster, softer domestic warmth</text>
+</svg>

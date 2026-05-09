@@ -1,0 +1,14 @@
+node_modules
+.npm-cache
+.next
+.next-prod
+out
+.env
+.env*.local
+!.env.example
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
+data/traces/*.json
+170 St Germaine Ave/
+FloorPlan/

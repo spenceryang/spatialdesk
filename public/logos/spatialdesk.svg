@@ -1,0 +1,6 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="46" height="46" rx="8" fill="#10100F" stroke="#C7A86B" stroke-width="2"/>
+  <path d="M13 32L24 10L35 32H29L26.6 26.8H21.4L19 32H13Z" fill="#F4F3EF"/>
+  <path d="M22.7 22.8H25.3L24 19.7L22.7 22.8Z" fill="#C7A86B"/>
+  <text x="58" y="31" fill="#F4F3EF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">SpatialDesk</text>
+</svg>

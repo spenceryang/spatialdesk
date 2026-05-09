@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#aeb8bc"/>
+  <rect y="562" width="1200" height="198" fill="#343b3d"/>
+  <g transform="translate(330 86)">
+    <rect x="80" y="30" width="445" height="570" rx="4" fill="#ddddda"/>
+    <rect x="104" y="62" width="398" height="500" fill="#f0efea"/>
+    <g fill="#111617">
+      <rect x="132" y="96" width="130" height="95"/>
+      <rect x="302" y="96" width="130" height="95"/>
+      <rect x="132" y="235" width="300" height="104"/>
+      <rect x="165" y="425" width="235" height="122"/>
+    </g>
+    <rect x="116" y="369" width="330" height="24" fill="#7c95a6"/>
+    <rect x="116" y="401" width="330" height="10" fill="#7c95a6"/>
+  </g>
+  <text x="70" y="92" fill="#101314" font-family="Arial" font-size="42" font-weight="700">Contemporary Variant</text>
+  <text x="72" y="136" fill="#253034" font-family="Arial" font-size="22">larger glazing, cooler palette, stronger street contrast</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#0b0d0d"/>
+  <rect x="100" y="90" width="800" height="520" rx="18" fill="#141414" stroke="#2a2a29"/>
+  <g transform="translate(245 110)">
+    <polygon points="155,70 465,130 465,475 155,415" fill="#8d887a"/>
+    <polygon points="155,70 75,130 75,475 155,415" fill="#625f56"/>
+    <polygon points="75,130 385,190 465,130 155,70" fill="#b8ad99"/>
+    <rect x="92" y="378" width="384" height="70" fill="#2c362f" opacity=".95"/>
+    <rect x="180" y="258" width="250" height="72" fill="#596571" opacity=".95"/>
+    <rect x="198" y="110" width="210" height="92" fill="#8c7a5e" opacity=".96"/>
+    <g stroke="#c7a86b" stroke-width="3">
+      <path d="M92 378L60 420"/>
+      <path d="M180 258L120 232"/>
+      <path d="M198 110L138 78"/>
+    </g>
+    <g fill="#1b1f20">
+      <rect x="115" y="162" width="55" height="45"/>
+      <rect x="230" y="184" width="55" height="45"/>
+      <rect x="345" y="206" width="55" height="45"/>
+      <rect x="125" y="383" width="78" height="38"/>
+      <rect x="246" y="404" width="78" height="38"/>
+    </g>
+  </g>
+  <text x="136" y="570" fill="#f4f3ef" font-family="Arial" font-size="28" font-weight="700">Proposed targeted interventions</text>
+  <text x="136" y="608" fill="#a7a29a" font-family="Arial" font-size="18">ADU conversion, acoustic studio, and primary-suite material layer.</text>
+</svg>

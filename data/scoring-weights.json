@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-09T00:00:00Z",
+  "updateReasoning": "Initial weights based on operator priors",
+  "weights": {
+    "icpFit": 25,
+    "aiEmployerBoost": 20,
+    "recentPurchase": 15,
+    "propertyValueTier": 15,
+    "permitGap": 10,
+    "publicSignalRichness": 10,
+    "neighborhoodFit": 5
+  }
+}

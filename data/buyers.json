@@ -1,0 +1,51 @@
+[
+  {
+    "id": "buyer_thibault",
+    "name": "Thibault Sottiaux",
+    "isDemoPersona": true,
+    "employer": "OpenAI",
+    "title": "Member of Technical Staff (Codex Engineering Lead)",
+    "signals": [
+      {
+        "type": "education",
+        "content": "MS Computational and Applied Mathematics, Universite catholique de Louvain (Belgium)",
+        "weight": 0.9
+      },
+      {
+        "type": "career",
+        "content": "Codex Engineering Lead at OpenAI; previously Staff SWE at DeepMind, SWE at Google",
+        "weight": 1
+      },
+      {
+        "type": "public_post",
+        "content": "'Scaffolding is coping not scaling' - thesis on ruthless minimalism in agent design",
+        "sourceUrl": "https://linearb.io/dev-interrupted/podcast/openai-codex-thibault-sottiaux-agentic-autonomy",
+        "weight": 0.95
+      },
+      {
+        "type": "podcast",
+        "content": "Frequent podcast guest: Dev Interrupted, Software Engineering Daily, OpenAI Podcast",
+        "weight": 0.8
+      },
+      {
+        "type": "x_post",
+        "content": "Active @thsottiaux, posts about gpt-5-codex daily",
+        "sourceUrl": "https://x.com/thsottiaux",
+        "weight": 0.7
+      },
+      {
+        "type": "publication",
+        "content": "Co-author Gemini paper, 720+ citations",
+        "weight": 0.6
+      },
+      {
+        "type": "investment",
+        "content": "Angel investor (Belfort, Sept 2025)",
+        "weight": 0.5
+      }
+    ],
+    "inferredCompBand": "Staff",
+    "estimatedLiquidity": "$8M-$20M (post-OpenAI tender)",
+    "linkedinUrl": "https://www.linkedin.com/in/thibault-sottiaux-27195366/"
+  }
+]

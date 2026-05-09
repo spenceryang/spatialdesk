@@ -1,0 +1,57 @@
+{
+  "address": "170 St Germain Ave",
+  "totalSqft": 4534,
+  "stories": 4,
+  "floors": [
+    {
+      "level": 1,
+      "label": "Ground / Garden Level",
+      "sqftApprox": 1100,
+      "rooms": [
+        { "name": "BR/Office", "sqftApprox": 200, "features": ["views", "exterior wall"] },
+        { "name": "Gym/Chill Room", "sqftApprox": 350, "features": ["opens to yard", "views", "shower adjacent"] },
+        { "name": "Bath", "sqftApprox": 60, "features": ["shower"] },
+        { "name": "Spiral stair", "sqftApprox": 40, "features": [] }
+      ]
+    },
+    {
+      "level": 2,
+      "label": "Lower Living Level",
+      "sqftApprox": 1100,
+      "rooms": [
+        { "name": "BR", "sqftApprox": 180, "features": [] },
+        { "name": "BR", "sqftApprox": 180, "features": [] },
+        { "name": "Bath", "sqftApprox": 70, "features": ["W/D adjacent"] },
+        { "name": "Great Room (work/chill)", "sqftApprox": 500, "features": ["views", "2nd door entry"] },
+        { "name": "Spiral stair", "sqftApprox": 40, "features": [] }
+      ]
+    },
+    {
+      "level": 3,
+      "label": "Main / Entertaining Level",
+      "sqftApprox": 1200,
+      "rooms": [
+        { "name": "Garage", "sqftApprox": 300, "features": ["main door entry adjacent"] },
+        { "name": "Patio", "sqftApprox": 100, "features": ["views"] },
+        { "name": "Living Area", "sqftApprox": 350, "features": ["views"] },
+        { "name": "Dining Area", "sqftApprox": 200, "features": [] },
+        { "name": "Kitchen", "sqftApprox": 250, "features": ["island", "Thermador", "Jenn-Air"] },
+        { "name": "TV/Music Area", "sqftApprox": 150, "features": ["fireplace"] },
+        { "name": "Deck", "sqftApprox": 80, "features": ["views"] }
+      ]
+    },
+    {
+      "level": 4,
+      "label": "Top / Primary Level",
+      "sqftApprox": 1100,
+      "rooms": [
+        { "name": "Master", "sqftApprox": 350, "features": ["views", "fireplace"] },
+        { "name": "Suit (master closet/dressing)", "sqftApprox": 150, "features": [] },
+        { "name": "Master Bath", "sqftApprox": 120, "features": [] },
+        { "name": "BR", "sqftApprox": 180, "features": [] },
+        { "name": "BR", "sqftApprox": 180, "features": [] },
+        { "name": "Bath", "sqftApprox": 70, "features": [] }
+      ]
+    }
+  ]
+}

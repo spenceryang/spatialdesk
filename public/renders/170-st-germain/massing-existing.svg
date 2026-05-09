@@ -1,0 +1,24 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#0b0d0d"/>
+  <rect x="100" y="90" width="800" height="520" rx="18" fill="#141414" stroke="#2a2a29"/>
+  <g transform="translate(260 120)">
+    <polygon points="140,60 450,120 450,465 140,405" fill="#837f75"/>
+    <polygon points="140,60 60,120 60,465 140,405" fill="#5f5c55"/>
+    <polygon points="60,120 370,180 450,120 140,60" fill="#aaa28f"/>
+    <g stroke="#161616" stroke-width="5" opacity=".9">
+      <line x1="60" y1="210" x2="450" y2="270"/>
+      <line x1="60" y1="300" x2="450" y2="360"/>
+      <line x1="60" y1="390" x2="450" y2="450"/>
+    </g>
+    <g fill="#242728">
+      <rect x="105" y="155" width="55" height="45"/>
+      <rect x="210" y="175" width="55" height="45"/>
+      <rect x="315" y="195" width="55" height="45"/>
+      <rect x="105" y="260" width="55" height="45"/>
+      <rect x="210" y="280" width="55" height="45"/>
+      <rect x="315" y="300" width="55" height="45"/>
+    </g>
+  </g>
+  <text x="136" y="570" fill="#f4f3ef" font-family="Arial" font-size="28" font-weight="700">Existing four-story massing</text>
+  <text x="136" y="608" fill="#a7a29a" font-family="Arial" font-size="18">2016 renovation retained; opportunity is selective layering.</text>
+</svg>

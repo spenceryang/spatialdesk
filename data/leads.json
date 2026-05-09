@@ -1,0 +1,229 @@
+[
+  {
+    "id": "lead_170_st_germain",
+    "property": {
+      "id": "prop_170_st_germain",
+      "address": "170 St Germain Ave",
+      "neighborhood": "Clarendon Heights",
+      "city": "San Francisco",
+      "zip": "94114",
+      "soldDate": "2024-12-18",
+      "soldPrice": 4250000,
+      "yearBuilt": 1938,
+      "sqft": 4534,
+      "lotSqft": 5000,
+      "beds": 5,
+      "baths": 5.5,
+      "stories": 4,
+      "permitHistory": [
+        { "date": "2003-07-31", "description": "Horizontal addition", "cost": 250000 },
+        { "date": "2004-09-03", "description": "Interior wall removal, framing/plumbing/electrical", "cost": 50000 },
+        { "date": "2009-05-01", "description": "Permit work" },
+        { "date": "2016-01-01", "description": "Down-to-studs renovation, open floor plan, custom kitchen", "cost": 800000 }
+      ],
+      "lastMajorRemodel": "2016 down-to-studs",
+      "photos": [
+        "/properties/170-st-germain/exterior.webp",
+        "/properties/170-st-germain/kitchen.webp",
+        "/properties/170-st-germain/living.webp"
+      ],
+      "floorPlanUrl": "/properties/170-st-germain/floorplan-clean.png"
+    },
+    "buyer": { "id": "buyer_thibault" },
+    "score": 0,
+    "scoreReasoning": "",
+    "scoreBreakdown": {},
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_pacific_01",
+    "property": { "id": "prop_pacific_01", "address": "2840 Pacific Ave", "neighborhood": "Pacific Heights", "city": "San Francisco", "zip": "94115", "soldDate": "2026-04-11", "soldPrice": 6100000, "yearBuilt": 1908, "sqft": 5100, "lotSqft": 4200, "beds": 6, "baths": 5, "stories": 3, "permitHistory": [], "lastMajorRemodel": null, "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 72,
+    "scoreReasoning": "High value and neighborhood fit; buyer identity pending enrichment.",
+    "scoreBreakdown": { "total": 72 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_noe_02",
+    "property": { "id": "prop_noe_02", "address": "1125 Sanchez St", "neighborhood": "Noe Valley", "city": "San Francisco", "zip": "94114", "soldDate": "2026-03-27", "soldPrice": 3280000, "yearBuilt": 1924, "sqft": 3180, "lotSqft": 2850, "beds": 4, "baths": 3.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2011 kitchen and baths", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 68,
+    "scoreReasoning": "Good property value tier; public signals sparse.",
+    "scoreBreakdown": { "total": 68 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_cow_03",
+    "property": { "id": "prop_cow_03", "address": "2510 Green St", "neighborhood": "Cow Hollow", "city": "San Francisco", "zip": "94123", "soldDate": "2026-04-02", "soldPrice": 7350000, "yearBuilt": 1913, "sqft": 5600, "lotSqft": 3900, "beds": 5, "baths": 5.5, "stories": 4, "permitHistory": [], "lastMajorRemodel": "2006", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 81,
+    "scoreReasoning": "Luxury tier and likely renovation budget.",
+    "scoreBreakdown": { "total": 81 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_eureka_04",
+    "property": { "id": "prop_eureka_04", "address": "3768 21st St", "neighborhood": "Eureka Valley", "city": "San Francisco", "zip": "94114", "soldDate": "2026-02-18", "soldPrice": 2850000, "yearBuilt": 1906, "sqft": 2920, "lotSqft": 2625, "beds": 4, "baths": 3, "stories": 3, "permitHistory": [], "lastMajorRemodel": null, "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 65,
+    "scoreReasoning": "Recent purchase, but value tier and buyer signal confidence are moderate.",
+    "scoreBreakdown": { "total": 65 },
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_duboce_05",
+    "property": { "id": "prop_duboce_05", "address": "81 Alpine Ter", "neighborhood": "Duboce Triangle", "city": "San Francisco", "zip": "94117", "soldDate": "2026-04-22", "soldPrice": 4050000, "yearBuilt": 1927, "sqft": 3400, "lotSqft": 2500, "beds": 4, "baths": 4, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2010", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 78,
+    "scoreReasoning": "Strong neighborhood fit and older remodel gap.",
+    "scoreBreakdown": { "total": 78 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_marina_06",
+    "property": { "id": "prop_marina_06", "address": "188 Avila St", "neighborhood": "Marina", "city": "San Francisco", "zip": "94123", "soldDate": "2026-03-05", "soldPrice": 3900000, "yearBuilt": 1931, "sqft": 3010, "lotSqft": 3000, "beds": 4, "baths": 3.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2009", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 74,
+    "scoreReasoning": "Good owner-occupier remodel profile.",
+    "scoreBreakdown": { "total": 74 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_ashbury_07",
+    "property": { "id": "prop_ashbury_07", "address": "1270 Clayton St", "neighborhood": "Ashbury Heights", "city": "San Francisco", "zip": "94117", "soldDate": "2026-01-29", "soldPrice": 3050000, "yearBuilt": 1909, "sqft": 2780, "lotSqft": 2500, "beds": 4, "baths": 3, "stories": 3, "permitHistory": [], "lastMajorRemodel": null, "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 69,
+    "scoreReasoning": "Character home with permit gap; buyer fit pending.",
+    "scoreBreakdown": { "total": 69 },
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_presidio_08",
+    "property": { "id": "prop_presidio_08", "address": "3460 Jackson St", "neighborhood": "Presidio Heights", "city": "San Francisco", "zip": "94118", "soldDate": "2026-04-18", "soldPrice": 8250000, "yearBuilt": 1915, "sqft": 6200, "lotSqft": 5200, "beds": 6, "baths": 6.5, "stories": 4, "permitHistory": [], "lastMajorRemodel": "2004", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 86,
+    "scoreReasoning": "Very high value tier and long remodel gap.",
+    "scoreBreakdown": { "total": 86 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_glen_09",
+    "property": { "id": "prop_glen_09", "address": "85 Turquoise Way", "neighborhood": "Diamond Heights", "city": "San Francisco", "zip": "94131", "soldDate": "2026-02-07", "soldPrice": 2450000, "yearBuilt": 1964, "sqft": 2630, "lotSqft": 3600, "beds": 4, "baths": 3, "stories": 2, "permitHistory": [], "lastMajorRemodel": "1998", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 62,
+    "scoreReasoning": "Permit gap is good, but ICP confidence is lower.",
+    "scoreBreakdown": { "total": 62 },
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_sea_10",
+    "property": { "id": "prop_sea_10", "address": "219 27th Ave", "neighborhood": "Sea Cliff", "city": "San Francisco", "zip": "94121", "soldDate": "2026-03-12", "soldPrice": 9200000, "yearBuilt": 1922, "sqft": 6900, "lotSqft": 6100, "beds": 7, "baths": 7, "stories": 4, "permitHistory": [], "lastMajorRemodel": "2012", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 83,
+    "scoreReasoning": "Top value tier; scope likely view capture and owner suite.",
+    "scoreBreakdown": { "total": 83 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_bernal_11",
+    "property": { "id": "prop_bernal_11", "address": "521 Gates St", "neighborhood": "Bernal Heights", "city": "San Francisco", "zip": "94110", "soldDate": "2026-03-30", "soldPrice": 2200000, "yearBuilt": 1926, "sqft": 2300, "lotSqft": 2600, "beds": 3, "baths": 2.5, "stories": 2, "permitHistory": [], "lastMajorRemodel": "2001", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 61,
+    "scoreReasoning": "Possible ADU fit, lower budget tier.",
+    "scoreBreakdown": { "total": 61 },
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_potrero_12",
+    "property": { "id": "prop_potrero_12", "address": "731 Carolina St", "neighborhood": "Potrero Hill", "city": "San Francisco", "zip": "94107", "soldDate": "2026-04-03", "soldPrice": 3550000, "yearBuilt": 1925, "sqft": 3100, "lotSqft": 2750, "beds": 4, "baths": 3.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2015", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 73,
+    "scoreReasoning": "Recent sale, tech-buyer neighborhood, moderate remodel gap.",
+    "scoreBreakdown": { "total": 73 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_cole_13",
+    "property": { "id": "prop_cole_13", "address": "163 Belvedere St", "neighborhood": "Cole Valley", "city": "San Francisco", "zip": "94117", "soldDate": "2026-02-24", "soldPrice": 3150000, "yearBuilt": 1908, "sqft": 2860, "lotSqft": 2400, "beds": 4, "baths": 3, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2007", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 70,
+    "scoreReasoning": "Threshold fit; likely needs personalization.",
+    "scoreBreakdown": { "total": 70 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_russian_14",
+    "property": { "id": "prop_russian_14", "address": "1045 Vallejo St", "neighborhood": "Russian Hill", "city": "San Francisco", "zip": "94133", "soldDate": "2026-04-20", "soldPrice": 5800000, "yearBuilt": 1911, "sqft": 4400, "lotSqft": 3100, "beds": 5, "baths": 4.5, "stories": 4, "permitHistory": [], "lastMajorRemodel": "2008", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 80,
+    "scoreReasoning": "High-value hill property with view-capture potential.",
+    "scoreBreakdown": { "total": 80 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_hayes_15",
+    "property": { "id": "prop_hayes_15", "address": "469 Page St", "neighborhood": "Hayes Valley", "city": "San Francisco", "zip": "94102", "soldDate": "2026-01-20", "soldPrice": 2550000, "yearBuilt": 1900, "sqft": 2400, "lotSqft": 2200, "beds": 3, "baths": 2.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2014", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 64,
+    "scoreReasoning": "Good location, lower property value tier.",
+    "scoreBreakdown": { "total": 64 },
+    "status": "new",
+    "outcomes": []
+  },
+  {
+    "id": "lead_mission_16",
+    "property": { "id": "prop_mission_16", "address": "1057 Dolores St", "neighborhood": "Mission Dolores", "city": "San Francisco", "zip": "94110", "soldDate": "2026-03-18", "soldPrice": 3750000, "yearBuilt": 1907, "sqft": 3320, "lotSqft": 2750, "beds": 4, "baths": 3.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2003", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 77,
+    "scoreReasoning": "Strong permit gap and neighborhood fit.",
+    "scoreBreakdown": { "total": 77 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_soma_17",
+    "property": { "id": "prop_soma_17", "address": "45 South Park", "neighborhood": "South Park", "city": "San Francisco", "zip": "94107", "soldDate": "2026-04-06", "soldPrice": 2975000, "yearBuilt": 1998, "sqft": 2550, "lotSqft": 1800, "beds": 3, "baths": 3, "stories": 3, "permitHistory": [], "lastMajorRemodel": null, "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 71,
+    "scoreReasoning": "Tech corridor fit; less architectural upside.",
+    "scoreBreakdown": { "total": 71 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_twin_18",
+    "property": { "id": "prop_twin_18", "address": "55 Palo Alto Ave", "neighborhood": "Clarendon Heights", "city": "San Francisco", "zip": "94114", "soldDate": "2026-02-11", "soldPrice": 5150000, "yearBuilt": 1961, "sqft": 4200, "lotSqft": 4700, "beds": 5, "baths": 4.5, "stories": 3, "permitHistory": [], "lastMajorRemodel": "1999", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 79,
+    "scoreReasoning": "Similar hill profile to hero property.",
+    "scoreBreakdown": { "total": 79 },
+    "status": "scored",
+    "outcomes": []
+  },
+  {
+    "id": "lead_lake_19",
+    "property": { "id": "prop_lake_19", "address": "144 6th Ave", "neighborhood": "Lake Street", "city": "San Francisco", "zip": "94118", "soldDate": "2026-03-09", "soldPrice": 3425000, "yearBuilt": 1916, "sqft": 3040, "lotSqft": 3000, "beds": 4, "baths": 3, "stories": 3, "permitHistory": [], "lastMajorRemodel": "2005", "photos": [], "floorPlanUrl": "" },
+    "buyer": { "id": "buyer_placeholder" },
+    "score": 72,
+    "scoreReasoning": "Classic SF family remodel profile.",
+    "scoreBreakdown": { "total": 72 },
+    "status": "scored",
+    "outcomes": []
+  }
+]
