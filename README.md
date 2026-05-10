@@ -15,7 +15,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-API keys (OpenAI, Tavily, Resend, etc.) belong in `.env.local` — see `.env.example`. Demo mode is deterministic and runs without live credentials; tools return pre-baked fixtures so the demo flow is repeatable.
+API keys (OpenAI, Tavily, Resend, etc.) belong in `.env.local` — see `.env.example`.
+
+There are two run modes, toggled by the pill in the header:
+
+- **Demo** (default) — deterministic, no API calls, pre-baked fixtures. Repeatable on stage.
+- **Live** — real Tavily search + OpenAI calls for the buyer enrichment, design theme, remodel scope, and outreach drafting. Requires `OPENAI_API_KEY` and `TAVILY_API_KEY`. Asset-bound steps (3D massing, facade renders) still serve the pre-rendered images.
 
 ## Demo flow
 

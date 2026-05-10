@@ -4,6 +4,7 @@ import { useCallback, useState } from "react";
 import { BrainCircuit, Play } from "lucide-react";
 import { learningInsights, proposedWeights } from "@/lib/demo-output";
 import type { TraceEvent } from "@/lib/types";
+import { useModeStore } from "@/lib/store/mode";
 import { AgentTracePane } from "./AgentTracePane";
 import { Button } from "./ui/Button";
 import { ScoringEvolution } from "./ScoringEvolution";
@@ -12,9 +13,14 @@ export function LearningTab({ currentWeights }: { currentWeights: Record<string,
   const [runId, setRunId] = useState<string | null>(null);
   const [insights, setInsights] = useState<string[]>(learningInsights);
   const [weights, setWeights] = useState<Record<string, number>>(proposedWeights);
+  const mode = useModeStore((s) => s.mode);
 
   async function runLearning() {
-    const res = await fetch("/api/agent/learn", { method: "POST" });
+    const res = await fetch("/api/agent/learn", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ mode })
+    });
     const data = await res.json();
     setRunId(data.runId);
   }

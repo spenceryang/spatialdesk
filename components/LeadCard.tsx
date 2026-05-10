@@ -5,12 +5,14 @@ import { useRouter } from "next/navigation";
 import { ArrowRight, Play } from "lucide-react";
 import type { Lead } from "@/lib/types";
 import { money } from "@/lib/utils";
+import { useModeStore } from "@/lib/store/mode";
 import { Button } from "./ui/Button";
 import { Badge } from "./ui/Badge";
 
 export function LeadCard({ lead, hero = false }: { lead: Lead; hero?: boolean }) {
   const router = useRouter();
   const [running, setRunning] = useState(false);
+  const mode = useModeStore((s) => s.mode);
 
   async function runAgent() {
     setRunning(true);
@@ -22,7 +24,7 @@ export function LeadCard({ lead, hero = false }: { lead: Lead; hero?: boolean })
     const res = await fetch("/api/agent/run", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ leadId: lead.id })
+      body: JSON.stringify({ leadId: lead.id, mode })
     });
     const { runId } = await res.json();
     router.push(`/leads/${lead.id}?runId=${runId}`);
