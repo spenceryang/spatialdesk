@@ -1,12 +1,14 @@
 "use client";
 
 import { useCallback, useMemo, useState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { BrainCircuit, Home, Mail, PenTool, UserRound } from "lucide-react";
+import { ArrowLeft, BrainCircuit, Home, Mail, PenTool, UserRound } from "lucide-react";
 import { heroMoves, heroOutreach, heroRenders, heroTheme } from "@/lib/demo-output";
 import type { Buyer, DesignTheme, FloorPlan, Lead, OutreachVariant, RemodelMove, TraceEvent } from "@/lib/types";
 import { AgentTracePane } from "./AgentTracePane";
 import { BuyerTab } from "./BuyerTab";
+import { DemoModeToggle } from "./DemoModeToggle";
 import { LearningTab } from "./LearningTab";
 import { OutreachTab } from "./OutreachTab";
 import { ProposalTab } from "./ProposalTab";
@@ -89,11 +91,18 @@ export function LeadDetailClient({
     <main className="mx-auto max-w-[1500px] px-5 py-5">
       <div className="mb-5 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <a className="text-sm text-zinc-500 hover:text-brass" href="/">SpatialDesk</a>
-          <h1 className="mt-2 text-3xl font-bold">{lead.property.address}</h1>
+          <Link
+            className="inline-flex items-center gap-1.5 rounded-md border border-line px-2.5 py-1 text-xs text-zinc-400 transition hover:border-brass/40 hover:text-brass"
+            href="/"
+          >
+            <ArrowLeft className="h-3 w-3" />
+            All leads
+          </Link>
+          <h1 className="mt-3 text-3xl font-bold">{lead.property.address}</h1>
           <p className="mt-1 text-muted">{lead.property.neighborhood} · {buyer.name}, {buyer.employer}</p>
         </div>
         <div className="flex items-center gap-2">
+          <DemoModeToggle />
           <Badge className="bg-brass text-ink">{score ? `${score}/100` : "new"}</Badge>
           <Badge>{completed ? "outreach drafted" : runId ? "running" : "ready"}</Badge>
         </div>

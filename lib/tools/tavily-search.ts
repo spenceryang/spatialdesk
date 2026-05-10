@@ -41,14 +41,21 @@ export async function tavilySearchLive({ query, runId }: { query: string; runId:
 
   const apiKey = process.env.TAVILY_API_KEY;
   if (!apiKey) {
-    throw new Error("TAVILY_API_KEY is not set");
+    throw new Error("TAVILY_API_KEY is not set. Add it to .env.local (and Vercel env vars).");
+  }
+  if (!apiKey.startsWith("tvly-")) {
+    throw new Error(
+      `TAVILY_API_KEY format looks wrong (expected lowercase "tvly-..." prefix, got "${apiKey.slice(0, 6)}..."). Get a real key at https://app.tavily.com/home`
+    );
   }
 
   const response = await fetch("https://api.tavily.com/search", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`
+    },
     body: JSON.stringify({
-      api_key: apiKey,
       query,
       max_results: 6,
       include_answer: false,
@@ -58,6 +65,11 @@ export async function tavilySearchLive({ query, runId }: { query: string; runId:
 
   if (!response.ok) {
     const errText = await response.text();
+    if (response.status === 401) {
+      throw new Error(
+        `Tavily 401 unauthorized. Verify TAVILY_API_KEY at https://app.tavily.com/home — it should start with lowercase "tvly-" and be ~30+ characters.`
+      );
+    }
     throw new Error(`Tavily API error ${response.status}: ${errText}`);
   }
 
